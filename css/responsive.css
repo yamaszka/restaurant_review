@@ -1,0 +1,106 @@
+@media screen and (max-width: 450px) {
+/* ====================== Navigation ====================== */
+    nav {
+      padding: 10px;
+    }
+    nav h1 a {
+      font-size: 0.7em;
+      font-weight: 100;
+    }
+/* ====================== Map ====================== */
+    #map {
+      height: 250px;
+    }
+/* ====================== Restaurant Filtering ====================== */
+    .filter-options {
+      padding-top: 5px;
+    }
+    .filter-options h2 {
+      font-size: 1em;
+      margin: 0 10px;
+    }
+    .filter-options select {
+      font-size: 1em;
+      height: 35px;
+      margin: 10px;
+      padding: 0 10px;
+      width: 200px;
+    }
+/* ====================== Restaurant Details ====================== */
+    .inside #map-container {
+    height: 250px;
+    }
+
+    #restaurant-name {
+      font-size: 1em;
+      margin: 15px 0 30px;
+    }
+    #restaurant-img {
+    	width: 90%;
+    }
+    #restaurant-address {
+      font-size: 0.7em;
+      margin: 10px 0px;
+    }
+    #restaurant-cuisine {
+      font-size: 0.7em;
+      letter-spacing: 10px;
+      margin: 0 0 20px;
+      padding: 2px 0;
+    	width: 90%;
+    }
+    #restaurant-hours td{
+    font-size: 0.7em;
+    }
+    #restaurant-container {
+      padding: 40px 40px 30px;
+      margin:auto;
+    }
+    #reviews-container {
+      padding: 40px 40px 30px;
+    }
+    #reviews-container h2 {
+      font-size: 1.1em;
+    }
+    #reviews-list li {
+      margin-bottom: 20px;
+      padding: 20px;
+    }
+    #reviews-list li p {
+      margin: 0 0 10px;
+      font-size: 0.7em;
+    }
+
+}/* max-width 450 */
+
+@media screen and (min-width: 750px) {
+    .inside #maincontent {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .inside #map-container {
+      /* position: fixed;
+      right: 0;
+      top: 80px; */
+      width: 40%;
+     margin-left: 20px;
+     height: 600px;
+     margin: auto;
+    }
+    #restaurant-container {
+      padding: 0 0 0 ;
+      width: 35%;
+      margin-left: 50px;
+    }
+
+    #restaurant-img {
+    	max-width: 60%;
+    }
+    #restaurant-cuisine {
+        max-width: 60%;
+    }
+    #restaurant-hours td {
+      font-size: 0.8em;
+    }
+
+}/* mmin-width 750 */
