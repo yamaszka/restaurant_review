@@ -51,16 +51,16 @@ nav, section {
   /* width: 100%; */
 }
 /* ====================== Navigation ====================== */
-nav {
+h1 {
   /* width: 100%; */
   background-color: #252831;
   text-align:center;
   padding: 25px;
 }
-nav h1 {
+h1 {
   margin: auto;
 }
-nav h1 a {
+h1 a {
   color: #fff;
   font-size: 14pt;
   font-weight: 200;
